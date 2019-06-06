@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Заява про акцепт Публічної угоди</title>
+
+    
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    
+  </head>
+  <body>
+    <div class="container">
+        <form>
+          <div class="form-group row">
+            <label for="inputSurname" class="col-sm-3 col-form-label">Прізвище</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputSurname" placeholder="Петренко" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputName" class="col-sm-3 col-form-label">Ім'я</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputName" placeholder="Пeтро" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPatronymic" class="col-sm-3 col-form-label">По батькові</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputPatronymic" placeholder="Петрович" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassportSeries" class="col-sm-2 col-form-label">Паспорт:  Cерія</label>
+            <div class="col-sm-1">
+              <input type="text" class="form-control" id="inputPassportSeries" placeholder="АБ" required>
+            </div>
+            <label for="inputPassportNumber" class="col-sm-1 col-form-label">Номер</label>
+            <div class="col-sm-2">
+              <input type="text" class="form-control" id="inputPassportNumber" placeholder="00000000" required>
+            </div>
+            <label for="inputPassportDateOfIssue" class="col-sm-2 col-form-label">дата видачі</label>
+            <div class="col-sm-4">
+              <input type="date" class="form-control" id="inputPassportDateOfIssue" placeholder="" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassportIssuer" class="col-sm-3 col-form-label">Ким виданий</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputPassportIssuer" placeholder="" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputRegisteredAddress" class="col-sm-3 col-form-label">Місце реєстрації</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputRegisteredAddress" placeholder="" required>
+            </div>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="isLiveOnRegistration">
+              <label class="form-check-label" for="defaultCheck1">
+                Проживає за місцем реєстрації
+              </label>
+           </div>
+          <div class="form-group row">
+            <label for="inputResidentialAdress" class="col-sm-3 col-form-label">Місце проживання</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputResidentialAdress" placeholder="" required>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Ввести</button>
+          
+  
+        </form>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>
